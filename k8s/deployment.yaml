@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitops-web-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gitops-web-app
+  template:
+    metadata:
+      labels:
+        app: gitops-web-app
+    spec:
+      containers:
+      - name: gitops-web-app
+        image: sambhram2004/gitops-web-app:v2
+        ports:
+        - containerPort: 80
