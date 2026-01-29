@@ -33,6 +33,16 @@ All application deployments are automated using **Git as the single source of tr
 - Real GitOps Workflow  
 
 ---
+## 📸 Project Proof Screenshots
+
+### ArgoCD Dashboard
+![ArgoCD](screenshots/argocd-dashboard.png)
+
+### Live Kubernetes Website
+![Website](screenshots/website-running.png)
+
+### Kubernetes Pods Running
+![Pods](screenshots/pods-running.png)
 
 ## 📸 Demo
 Project deployed using Kubernetes with live GitOps automation.
